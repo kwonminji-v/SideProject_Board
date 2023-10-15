@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# SideProject_PlayHub
-=======
 # ✍️ Side Project - PlayHub
 ####
 > 다양한 스포츠에 관심 있는 여성들을 위한 커뮤니티 사이트
@@ -10,4 +7,3 @@
 
 #### 2. 프로젝트 개요
 　　프로젝트 명칭 : PlayHub
->>>>>>> 863431d5db8edead132aadb55c6d76ec948f62b7
