@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+          <div className="App-header" style={{ width:"99vw" ,height:"auto", border:"2px solid red"}}>
+              네비게이션 bar 입니다.
+              <p>---------------------------------------------------------</p>
+            </div>
+          <div style={{ width:"99vw" ,height:"auto", background:"yellow"}}>
+              body 부분입니다.
+              <p>---------------------------------------------------------</p>
+              <div style={{background:"red", height:"auto"}}>
+                  section부분입니다.
+
+              </div>
+              <p>---------------------------------------------------------</p>
+              <div style={{background:"blue",  width:"99vw", height:"auto"}}>
+                  footer입니다.
+                  <p>---------------------------------------------------------</p>
+              </div>
+          </div>
+
+      </>
+
   );
 }
 
