@@ -1,4 +1,4 @@
-package com.playhub.Post;
+package com.playhub.Service;
 
 public class PostService {
 }
