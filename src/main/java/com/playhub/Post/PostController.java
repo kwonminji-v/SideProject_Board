@@ -1,11 +1,11 @@
-package com.playhub.Post.controller;
+package com.playhub.Post;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class StartController {
+public class PostController {
 
     @GetMapping("/api/start")
     public String test(){
