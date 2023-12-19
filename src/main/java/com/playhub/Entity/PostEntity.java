@@ -7,24 +7,29 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
+
+
 @Data
+@Entity
 @Builder
-@Table(name = "MEMBER")
+@Table(name = "POST")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Member {
+public class PostEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "member_id")
+    @Column(name = "post_id")
     private Long id;
 
-    @Column(name = "member_name")
-    private String name;
+    @Column(name = "post_writer")
+    private String writer;
 
-    @Column(name = "member_tel")
-    private String number;
+    @Column(name = "post_title")
+    private String title;
+
+    @Column(name = "post_content")
+    private String content;
 
 
 }

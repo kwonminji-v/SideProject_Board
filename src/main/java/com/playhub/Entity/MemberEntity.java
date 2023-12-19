@@ -10,21 +10,21 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @Builder
-@Table(name = "POST")
+@Table(name = "MEMBER")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Post {
+public class MemberEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "post_id")
+    @Column(name = "member_id")
     private Long id;
 
-    @Column(name = "post_title")
-    private String title;
+    @Column(name = "member_name")
+    private String name;
 
-    @Column(name = "post_content")
-    private String content;
+    @Column(name = "member_tel")
+    private String number;
 
 
 }
